@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <h1>Kitten App!</h1>
-      <p>Data from server:</p> 
+      <p>Data from server::</p> 
       {data.map(kitten => {
         return <p key={kitten._id}>{kitten.name} ({kitten._id})</p>;
       })}
